@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tonny/Desktop/IFRN/EDL/EDL-Vector/EDL-Vector.csproj",
-      "projectName": "EDL-Vector",
-      "projectPath": "/home/tonny/Desktop/IFRN/EDL/EDL-Vector/EDL-Vector.csproj",
+      "projectUniqueName": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj",
+      "projectName": "TAD-Lista",
+      "projectPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj",
       "packagesPath": "/home/tonny/.nuget/packages/",
-      "outputPath": "/home/tonny/Desktop/IFRN/EDL/EDL-Vector/obj/",
+      "outputPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Lista/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/tonny/.nuget/NuGet/NuGet.Config"

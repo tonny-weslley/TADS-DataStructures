@@ -74,16 +74,18 @@ namespace Vetor
             }else{
                 if(pos == n)
                 {
-                    this.lista[n] = novo;
-                    this.n++;
-                }else{
-                    for(int i = n; i > pos; i--)
-                    {
-                        this.lista[i] = this.lista[i-1];
-                    }
-                    this.lista[pos] = novo;
-                    this.n++;
+                    object[] novaLista = new object[lista.Length * 2];
+                    Array.Copy(lista, novaLista, n);
+                    lista = novaLista;
                 }
+
+                for(int i = n; i > pos; i--)
+                {
+                    lista[i] = lista[i-1];
+                }
+                lista[pos] = novo;
+                n++;
+
             }
         }
     }

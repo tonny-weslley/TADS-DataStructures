@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/tonny/Desktop/IFRN/EDL/EDL-Vector/EDL-Vector.csproj": {}
+    "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Vetor/EDL-Vector.csproj": {}
   },
   "projects": {
-    "/home/tonny/Desktop/IFRN/EDL/EDL-Vector/EDL-Vector.csproj": {
+    "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Vetor/EDL-Vector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tonny/Desktop/IFRN/EDL/EDL-Vector/EDL-Vector.csproj",
+        "projectUniqueName": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Vetor/EDL-Vector.csproj",
         "projectName": "EDL-Vector",
-        "projectPath": "/home/tonny/Desktop/IFRN/EDL/EDL-Vector/EDL-Vector.csproj",
+        "projectPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Vetor/EDL-Vector.csproj",
         "packagesPath": "/home/tonny/.nuget/packages/",
-        "outputPath": "/home/tonny/Desktop/IFRN/EDL/EDL-Vector/obj/",
+        "outputPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Vetor/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/tonny/.nuget/NuGet/NuGet.Config"
