@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj",
+      "projectUniqueName": "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj",
       "projectName": "TAD-Lista",
-      "projectPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj",
+      "projectPath": "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj",
       "packagesPath": "/home/tonny/.nuget/packages/",
-      "outputPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Lista/obj/",
+      "outputPath": "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Lista/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/tonny/.nuget/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }
