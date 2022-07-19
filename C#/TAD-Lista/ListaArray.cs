@@ -147,6 +147,65 @@ namespace Lista
 
 
 
+        public void insertFirst(object element)
+        {
+            if (lista.Length == size())
+            {
+                increasseArray();
+            }
+            for (int i = size(); i > 0; i--)
+            {
+                lista[i] = lista[i - 1];
+            }
+            lista[0] = element;
+        }
+
+        public void insertLast(object element)
+        {
+            if (lista.Length == size())
+            {
+                increasseArray();
+            }
+            lista[size()] = element;
+        }
+
+        public void insertBefore(int pos, object element)
+        {
+            if (pos > size() || pos < 1 || isEmpty())
+            {
+                throw new listaException("Lista vazia");
+            }
+            else
+            {
+                if (lista.Length == size())
+                {
+                    increasseArray();
+                }
+                for (int i = size(); i > pos; i--)
+                {
+                    lista[i] = lista[i - 1];
+                }
+                lista[pos] = element;
+            }
+        }
+
+        public void insertAfter(int pos, object element)
+        {
+            if (pos > size() || pos < 1 || isEmpty())
+            {
+                throw new listaException("Lista vazia");
+            }
+            else
+            {
+                if (lista.Length == size())
+                {
+                    increasseArray();
+                }
+                lista[pos + 1] = element;
+            }
+        }
+
+
 
         private void increasseArray()
             {
