@@ -22,6 +22,7 @@ Console.WriteLine(vetor.ElemAtRank(4));
 Console.WriteLine(vetor.ElemAtRank(5));
 Console.WriteLine(vetor.ElemAtRank(6));
 
+Console.WriteLine("====Removendo elementos (removeAtRank)====");
 //testing remove at rank
 Console.WriteLine(vetor.RemoveAtRank(0));
 Console.WriteLine(vetor.RemoveAtRank(1));
@@ -32,7 +33,7 @@ vetor.InserAtRank(0, "teste");
 vetor.InserAtRank(1, "teste2");
 vetor.InserAtRank(2, "teste3");
 vetor.InserAtRank(3, "teste4");
-
+Console.WriteLine("====Rearranjando elementos ( replaceAtRank)====");
 vetor.ReplaceAtRank(0, "teste5");
 vetor.ReplaceAtRank(1, "teste6");
 vetor.ReplaceAtRank(2, "teste7");
@@ -43,7 +44,7 @@ Console.WriteLine(vetor.ElemAtRank(1));
 Console.WriteLine(vetor.ElemAtRank(2));
 
 
-Console.WriteLine("Testando Vetor com Array");
+Console.WriteLine("\n\n================\nTestando Vetor com Array");
 
 VetorArray vetor2 = new VetorArray();
 
@@ -65,6 +66,7 @@ Console.WriteLine(vetor2.ElemAtRank(4));
 Console.WriteLine(vetor2.ElemAtRank(5));
 Console.WriteLine(vetor2.ElemAtRank(6));
 
+Console.WriteLine("====Removendo elementos (removeAtRank)====");
 //testing remove at rank
 Console.WriteLine(vetor2.RemoveAtRank(0));
 Console.WriteLine(vetor2.RemoveAtRank(1));
@@ -75,3 +77,12 @@ vetor2.InserAtRank(0, "teste");
 vetor2.InserAtRank(1, "teste2");
 vetor2.InserAtRank(2, "teste3");
 vetor2.InserAtRank(3, "teste4");
+
+Console.WriteLine("====Rearranjando elementos ( replaceAtRank)====");
+vetor2.ReplaceAtRank(0, "teste5");
+vetor2.ReplaceAtRank(1, "teste6");
+vetor2.ReplaceAtRank(2, "teste7");
+
+Console.WriteLine(vetor2.ElemAtRank(0));
+Console.WriteLine(vetor2.ElemAtRank(1));
+Console.WriteLine(vetor2.ElemAtRank(2));
