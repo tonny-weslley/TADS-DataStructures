@@ -206,16 +206,24 @@ namespace Lista
         }
 
 
+        public void add(object element){
+            // if (lista.MaxLength == size())
+            // {
+            //     increasseArray();
+            // }
+            lista[size()] = element;
+        }
+
 
         private void increasseArray()
+        {
+            object[] newLista = new object[size() * 2];
+            for (int i = 0; i < size(); i++)
             {
-                object[] newLista = new object[size() * 2];
-                for (int i = 0; i < size(); i++)
-                {
-                    newLista[i] = lista[i];
-                }
-                lista = newLista;
+                newLista[i] = lista[i];
             }
+            lista = newLista;
+        }
 
     }
 
