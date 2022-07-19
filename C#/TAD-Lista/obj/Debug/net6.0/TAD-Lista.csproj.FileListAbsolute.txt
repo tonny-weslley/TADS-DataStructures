@@ -28,3 +28,18 @@
 /mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Lista/obj/Debug/net6.0/TAD-Lista.pdb
 /mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Lista/obj/Debug/net6.0/TAD-Lista.genruntimeconfig.cache
 /mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Lista/obj/Debug/net6.0/ref/TAD-Lista.dll
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/obj/Debug/net6.0/TAD-Lista.csproj.AssemblyReference.cache
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/obj/Debug/net6.0/TAD-Lista.GeneratedMSBuildEditorConfig.editorconfig
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/obj/Debug/net6.0/TAD-Lista.AssemblyInfoInputs.cache
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/obj/Debug/net6.0/TAD-Lista.AssemblyInfo.cs
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/obj/Debug/net6.0/TAD-Lista.csproj.CoreCompileInputs.cache
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/obj/Debug/net6.0/TAD-Lista.dll
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/obj/Debug/net6.0/refint/TAD-Lista.dll
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/obj/Debug/net6.0/TAD-Lista.pdb
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/bin/Debug/net6.0/TAD-Lista
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/bin/Debug/net6.0/TAD-Lista.deps.json
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/bin/Debug/net6.0/TAD-Lista.runtimeconfig.json
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/bin/Debug/net6.0/TAD-Lista.dll
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/bin/Debug/net6.0/TAD-Lista.pdb
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/obj/Debug/net6.0/TAD-Lista.genruntimeconfig.cache
+/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/obj/Debug/net6.0/ref/TAD-Lista.dll

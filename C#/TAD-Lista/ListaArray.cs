@@ -9,17 +9,19 @@ namespace Lista
         {
             lista = new object[1];
         }
-
+        //isEmpty() -> done
         public bool isEmpty()
         {
             return lista.Length == 0;
         }
-
+        
+        //size() -> done
         public int size()
         {
             return lista.Length;
         }
-
+        
+        //isFirst(object element) -> done
         public bool isFirst(object element)
         {
             if (isEmpty())
@@ -31,7 +33,8 @@ namespace Lista
                 return element == lista[0];
             }
         }
-
+        
+        //isLast(object element) -> done
         public bool isLast(object element)
         {
 
@@ -45,7 +48,8 @@ namespace Lista
             }
 
         }
-
+        
+        //first() -> done
         public object first()
         {
             if (isEmpty())
@@ -54,10 +58,11 @@ namespace Lista
             }
             else
             {
-                return lista[1];
+                return lista[0];
             }
         }
-
+        
+        //last() -> done
         public object last()
         {
             if (isEmpty())
@@ -69,31 +74,34 @@ namespace Lista
                 return lista[size() - 1];
             }
         }
-
+        
+        //before(int pos) -> done
         public object before(int pos)
         {
             if (pos > size() || pos <= 1 || isEmpty())
             {
-                throw new listaException("Lista vazia");
+                throw new listaException("Indice invalido");
             }
             else
             {
                 return lista[pos - 2];
             }
         }
-
+        
+        //after(int pos) -> done
         public object after(int pos)
         {
-            if (pos >= size() || pos < 1 || isEmpty())
+            if (pos >= size()-1 || pos < 1 || isEmpty())
             {
-                throw new listaException("Lista vazia");
+                throw new listaException("Indice invalido");
             }
             else
             {
                 return lista[pos];
             }
         }
-
+        
+        //elemAtRank(int pos) -> done
         public object elementAtRank(int rank)
         {
             if (rank >= size() || rank < 0 || isEmpty())
@@ -105,8 +113,8 @@ namespace Lista
                 return lista[rank];
             }
         }
-
-
+        
+        //removeAtRank(int pos) -> done
         public object removeAtRank(int rank)
         {
             if (rank >= size() || rank < 0 || isEmpty())
@@ -124,107 +132,9 @@ namespace Lista
                 return element;
             }
         }
-
-
-
-        public void replaceAtRank(int rank, object element)
-        {
-            if (rank > size() || rank < 0 || isEmpty())
-            {
-                throw new listaException("Lista vazia");
-            }
-            else
-            {
-                if (lista.Length == size())
-                {
-                    increasseArray();
-                }
-                lista[rank] = element;
-            }
-
-
-        }
-
-
-
-        public void insertFirst(object element)
-        {
-            if (lista.Length == size())
-            {
-                increasseArray();
-            }
-            for (int i = size(); i > 0; i--)
-            {
-                lista[i] = lista[i - 1];
-            }
-            lista[0] = element;
-        }
-
-        public void insertLast(object element)
-        {
-            if (lista.Length == size())
-            {
-                increasseArray();
-            }
-            lista[size()] = element;
-        }
-
-        public void insertBefore(int pos, object element)
-        {
-            if (pos > size() || pos < 1 || isEmpty())
-            {
-                throw new listaException("Lista vazia");
-            }
-            else
-            {
-                if (lista.Length == size())
-                {
-                    increasseArray();
-                }
-                for (int i = size(); i > pos; i--)
-                {
-                    lista[i] = lista[i - 1];
-                }
-                lista[pos] = element;
-            }
-        }
-
-        public void insertAfter(int pos, object element)
-        {
-            if (pos > size() || pos < 1 || isEmpty())
-            {
-                throw new listaException("Lista vazia");
-            }
-            else
-            {
-                if (lista.Length == size())
-                {
-                    increasseArray();
-                }
-                lista[pos + 1] = element;
-            }
-        }
-
-
-        public void add(object element){
-            // if (lista.MaxLength == size())
-            // {
-            //     increasseArray();
-            // }
-            lista[size()] = element;
-        }
-
-
-        private void increasseArray()
-        {
-            object[] newLista = new object[size() * 2];
-            for (int i = 0; i < size(); i++)
-            {
-                newLista[i] = lista[i];
-            }
-            lista = newLista;
-        }
-
+        
+        //insertBefore(int pos, object novo) -> todo
+       
     }
 
 }
