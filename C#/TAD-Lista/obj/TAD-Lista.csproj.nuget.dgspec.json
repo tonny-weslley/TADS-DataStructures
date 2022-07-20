@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj": {}
+    "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj": {}
   },
   "projects": {
-    "/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj": {
+    "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj",
+        "projectUniqueName": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj",
         "projectName": "TAD-Lista",
-        "projectPath": "/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj",
+        "projectPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Lista/TAD-Lista.csproj",
         "packagesPath": "/home/tonny/.nuget/packages/",
-        "outputPath": "/home/tonny/Área de Trabalho/IFRN/TADS-DataStructures/C#/TAD-Lista/obj/",
+        "outputPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Lista/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/tonny/.nuget/NuGet/NuGet.Config"

@@ -24,4 +24,23 @@ Console.WriteLine(lista.before(5));
 Console.WriteLine(lista.after(1));
 
 
+Console.WriteLine("==== Lista com Array ====");
+
 ListaArray lista2 = new ListaArray();
+
+lista2.insertLast(1); //rank0
+lista2.insertLast(2); //rank1
+lista2.insertLast(3); //rank2
+lista2.insertLast(4); //rank3
+lista2.insertLast(5); //rank4
+lista2.insertLast(6); //rank5
+lista2.insertLast(7); //rank6
+lista2.insertLast(8); //rank7
+lista2.insertLast(9); //rank8
+lista2.insertLast(10);//rank9
+
+Console.WriteLine(lista2.size());
+Console.WriteLine(lista2.elemAtRank(2));
+
+Console.WriteLine(lista.first());
+Console.WriteLine(lista.last());
