@@ -201,7 +201,7 @@ namespace Lista
             else
             {
                 //verificar se array está cheio
-                if (size()-1 == t)
+                if (size() == t)
                 {
                     increaseArray();
                 }
@@ -215,13 +215,8 @@ namespace Lista
         }
 
         public void increaseArray(){
-            object[] aux = new object[size() * 2];
+            Array.Resize(ref lista, lista.Length * 2);
             t *= 2;
-            for (int i = 0; i < size(); i++)
-            {
-                aux[i] = lista[i];
-            }
-            lista = aux;
         }
     }
 }
