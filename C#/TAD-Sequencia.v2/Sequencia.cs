@@ -24,7 +24,7 @@ namespace Sequence
             }
             return aux.Element;
         }
-
+        
         public void replaceAtRank(int rank, object element)
         {
             Node aux = lista.First;
@@ -488,8 +488,4 @@ namespace Sequence
         }
 
     }
-
-
-
-
 }

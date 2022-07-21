@@ -26,10 +26,6 @@ namespace Sequence
             set { element = value; }
         }
 
-        public object getElement(){
-            return element;
-        }
-
         public Node Prev
         {
             get { return prev; }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Sequencia.v2/TAD-Sequencia.v2.csproj": {}
+    "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Sequencia.v2/TAD-Sequencia.v2.csproj": {}
   },
   "projects": {
-    "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Sequencia.v2/TAD-Sequencia.v2.csproj": {
+    "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Sequencia.v2/TAD-Sequencia.v2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Sequencia.v2/TAD-Sequencia.v2.csproj",
+        "projectUniqueName": "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Sequencia.v2/TAD-Sequencia.v2.csproj",
         "projectName": "TAD-Sequencia.v2",
-        "projectPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Sequencia.v2/TAD-Sequencia.v2.csproj",
+        "projectPath": "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Sequencia.v2/TAD-Sequencia.v2.csproj",
         "packagesPath": "/home/tonny/.nuget/packages/",
-        "outputPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Sequencia.v2/obj/",
+        "outputPath": "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Sequencia.v2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/tonny/.nuget/NuGet/NuGet.Config"
