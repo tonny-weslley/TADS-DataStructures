@@ -1,4 +1,4 @@
-namespace Sequencia{
+namespace Sequence{
 
     class SequenciaException : Exception
     {
