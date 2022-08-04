@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Tree/TAD-Tree.csproj",
+      "projectUniqueName": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Tree/TAD-Tree.csproj",
       "projectName": "TAD-Tree",
-      "projectPath": "/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Tree/TAD-Tree.csproj",
+      "projectPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Tree/TAD-Tree.csproj",
       "packagesPath": "/home/tonny/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Tree/obj/",
+      "outputPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-Tree/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/tonny/.nuget/NuGet/NuGet.Config"

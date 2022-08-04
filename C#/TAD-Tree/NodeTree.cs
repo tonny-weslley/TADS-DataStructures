@@ -6,13 +6,13 @@ namespace Tree {
 
         private object value;
         private NodeTree parent;
-        private List<NodeTree> children;
+        private ArrayList children;
 
         //construtor
         public NodeTree(object value, NodeTree parent){
             this.value = value;
             this.parent = parent;
-            this.children = new List<NodeTree>();
+            this.children = new ArrayList();
         }
 
         //getters e setters
@@ -26,7 +26,7 @@ namespace Tree {
             set { this.parent = value; }
         }
 
-        public List<NodeTree> Children {
+        public ArrayList Children {
             get { return children; }
             set { this.children = value; }
         }
@@ -47,6 +47,10 @@ namespace Tree {
             this.children.Remove(child);
         }
 
+         public IEnumerator childrenEnum()
+            {
+                return this.Children.GetEnumerator();
+            }
 
     }
 
