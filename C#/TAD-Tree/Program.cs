@@ -31,3 +31,9 @@ while (filhos4.MoveNext())
     Console.WriteLine(">" + z);
 }
 
+
+IEnumerator teste = a1.elements();
+
+while (teste.MoveNext()){
+    Console.WriteLine(teste.Current);
+}
