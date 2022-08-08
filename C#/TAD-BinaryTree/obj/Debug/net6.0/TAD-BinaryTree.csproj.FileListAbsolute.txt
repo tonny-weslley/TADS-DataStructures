@@ -1,0 +1,15 @@
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/bin/Debug/net6.0/TAD-BinaryTree
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/bin/Debug/net6.0/TAD-BinaryTree.deps.json
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/bin/Debug/net6.0/TAD-BinaryTree.runtimeconfig.json
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/bin/Debug/net6.0/TAD-BinaryTree.dll
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/bin/Debug/net6.0/TAD-BinaryTree.pdb
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/obj/Debug/net6.0/TAD-BinaryTree.csproj.AssemblyReference.cache
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/obj/Debug/net6.0/TAD-BinaryTree.GeneratedMSBuildEditorConfig.editorconfig
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/obj/Debug/net6.0/TAD-BinaryTree.AssemblyInfoInputs.cache
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/obj/Debug/net6.0/TAD-BinaryTree.AssemblyInfo.cs
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/obj/Debug/net6.0/TAD-BinaryTree.csproj.CoreCompileInputs.cache
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/obj/Debug/net6.0/TAD-BinaryTree.dll
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/obj/Debug/net6.0/refint/TAD-BinaryTree.dll
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/obj/Debug/net6.0/TAD-BinaryTree.pdb
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/obj/Debug/net6.0/TAD-BinaryTree.genruntimeconfig.cache
+/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/obj/Debug/net6.0/ref/TAD-BinaryTree.dll
