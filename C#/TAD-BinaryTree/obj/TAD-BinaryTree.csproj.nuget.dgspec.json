@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/TAD-BinaryTree.csproj": {}
+    "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-BinaryTree/TAD-BinaryTree.csproj": {}
   },
   "projects": {
-    "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/TAD-BinaryTree.csproj": {
+    "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-BinaryTree/TAD-BinaryTree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/TAD-BinaryTree.csproj",
+        "projectUniqueName": "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-BinaryTree/TAD-BinaryTree.csproj",
         "projectName": "TAD-BinaryTree",
-        "projectPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/TAD-BinaryTree.csproj",
+        "projectPath": "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-BinaryTree/TAD-BinaryTree.csproj",
         "packagesPath": "/home/tonny/.nuget/packages/",
-        "outputPath": "/home/tonny/Desktop/IFRN/EDL/TADS-DataStructures/C#/TAD-BinaryTree/obj/",
+        "outputPath": "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-BinaryTree/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/tonny/.nuget/NuGet/NuGet.Config"
