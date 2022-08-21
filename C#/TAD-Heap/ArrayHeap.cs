@@ -1,9 +1,10 @@
+using System.ComponentModel;
 namespace heap
 {
     public class ArrayHeap{
 
         private object[] heap;
-        private object tail;
+        private int tail;
 
 
         public ArrayHeap(int t){
@@ -11,53 +12,58 @@ namespace heap
             this.tail = -1;
         }
 
-        public boolean isEmpty(){
+        public bool isEmpty(){
             return this.tail == -1;
         }
 
-        public object left(int index){
+        public int left(int index){
             return 2 * index + 1;
         }
 
-        public object right(int index){
+        public int right(int index){
             return 2 * (index + 1);
         }
 
-        public object parent(int index){
+        public int parent(int index){
             return (index-1)/2;
+        }
+
+        public int size(){
+            return this.tail + 1;
         }
 
         public void add(object element){
             // Se o array estiver cheio
-            if( tail >= (heap.lenth -1)){
-                this.resize()
+            if( tail >= (heap.Length -1)){
+                this.resize();
             }
 
-            tail ++;
-            this.heap[tail] = element
+            this.tail ++;
+            this.heap[tail] = element;
 
             int i = tail;
             //caso o objeto inserido for maio que seu pai, devem trocar de lugar
-            while(i > 0 && this.heap[parent(i)] < this.heap[i] ){
+            while(i > 0 && Convert.ToInt32(this.heap[parent(i)]) < Convert.ToInt32(this.heap[i])){
                 //variavel que auxilia a troca
-                aux = this.heap[i]
-                this.heap[i] = this.heap[parent(i)]
+                object aux = this.heap[i];
+                this.heap[i] = this.heap[parent(i)];
                 this.heap[parent(i)] = aux;
                 i = parent(i);
             }
 
         }
 
-        public element remove(){
+        public object remove(){
             if(isEmpty()){
                 Console.WriteLine("tá vazio brow");
                 return null;
             }
 
-            object element = this.heap[0]// prepara o primeiro elemento do array a ser retornado
-            this.heap[0] = this.heap[this.tail]
+            object element = this.heap[0];// prepara o primeiro elemento do array a ser retornado
+            this.heap[0] = this.heap[this.tail];
             this.tail --;
 
+            //heapfy is not working
             this.heapify(0);
 
             return element;
@@ -73,7 +79,7 @@ namespace heap
                 return;
             }
 
-            object max_index = compareMax(index, left(index), right(index));
+            int max_index = compareMax(index, left(index), right(index));
 
             if(max_index != index){
                 swap(index, max_index);
@@ -81,18 +87,18 @@ namespace heap
             } 
         }
 
-        private element compareMax(int index, int left, int rigth){
-            if(this.heap[index] > this.heap[left]){
+        private int compareMax(int index, int left, int rigth){
+            if(Convert.ToInt32(this.heap[index]) > Convert.ToInt32(this.heap[left])){
                 if(isValid(rigth)){
-                    if(this.heap[index] < this.heap[right] ){
-                        return right;
+                    if(Convert.ToInt32(this.heap[index]) < Convert.ToInt32(this.heap[rigth])){
+                        return rigth;
                     }
                 }
                 return index;
             }else{
                 if(isValid(rigth)){
-                    if(this.heap[left] < this.heap[right] ){
-                        return right;
+                    if(Convert.ToInt32(this.heap[left]) < Convert.ToInt32(this.heap[rigth])){
+                        return rigth;
                     }
                 }
                 return left;
@@ -101,24 +107,30 @@ namespace heap
 
 
         private void resize(){
-            aux = object[heap.lenth * 2];
-            this.heap.copyTo(aux, 0);
+            object[] aux = new object[heap.Length * 2];
+            this.heap.CopyTo(aux, 0);
             this.heap = aux;
         }
 
-        private boolean isValid(int index){
+        private bool isValid(int index){
             return index >= 0 && index <= this.tail;
         }
 
-        private boolen isLeaf(int index){
+        private bool isLeaf(int index){
             return index > parent(this.tail) && index <= tail;
         }
 
         private void swap(int index, int index2){
-            aux = this.heap[index]
-            this.heap[index] = this.heap[index2]
+            object aux = this.heap[index];
+            this.heap[index] = this.heap[index2];
             this.heap[index2] = aux;
         }
 
+        public void print(){
+            for(int i = 0; i <= this.tail; i++){
+                Console.WriteLine(this.heap[i]);
+            }
+        }
+
     }
-    }
+}

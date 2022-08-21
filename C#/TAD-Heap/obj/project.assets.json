@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Heap/TAD-Heap.csproj",
+      "projectUniqueName": "/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/TAD-Heap.csproj",
       "projectName": "TAD-Heap",
-      "projectPath": "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Heap/TAD-Heap.csproj",
+      "projectPath": "/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/TAD-Heap.csproj",
       "packagesPath": "/home/tonny/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/20211014040042/Documents/code/TADS-DataStructures/C#/TAD-Heap/obj/",
+      "outputPath": "/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/tonny/.nuget/NuGet/NuGet.Config"

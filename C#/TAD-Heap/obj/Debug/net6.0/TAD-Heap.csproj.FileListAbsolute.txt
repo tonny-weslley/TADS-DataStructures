@@ -1,0 +1,15 @@
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/obj/Debug/net6.0/TAD-Heap.csproj.AssemblyReference.cache
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/obj/Debug/net6.0/TAD-Heap.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/obj/Debug/net6.0/TAD-Heap.AssemblyInfoInputs.cache
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/obj/Debug/net6.0/TAD-Heap.AssemblyInfo.cs
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/obj/Debug/net6.0/TAD-Heap.csproj.CoreCompileInputs.cache
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/bin/Debug/net6.0/TAD-Heap
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/bin/Debug/net6.0/TAD-Heap.deps.json
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/bin/Debug/net6.0/TAD-Heap.runtimeconfig.json
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/bin/Debug/net6.0/TAD-Heap.dll
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/bin/Debug/net6.0/TAD-Heap.pdb
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/obj/Debug/net6.0/TAD-Heap.dll
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/obj/Debug/net6.0/refint/TAD-Heap.dll
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/obj/Debug/net6.0/TAD-Heap.pdb
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/obj/Debug/net6.0/TAD-Heap.genruntimeconfig.cache
+/mnt/c/Users/tonny/Documents/Code/TADS-DataStructures/C#/TAD-Heap/obj/Debug/net6.0/ref/TAD-Heap.dll
